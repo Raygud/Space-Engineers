@@ -49,35 +49,6 @@ public void Main(string argument, UpdateType updateType)
 }
 ```
 
-```
-public void Main(string argument, UpdateType updateType)
-{
-    IMyTerminalBlock block = GridTerminalSystem.GetBlockWithName("MyCamera");
-    if (block != null && block is IMyCameraBlock)
-    {
-        if (block != null && block is IMyTextPanel)
-        {
-
-            if (entity.Type != MyDetectedEntityType.None && entity.HitPosition.HasValue)
-            {
-            }
-            else
-            {
-                // Handle case when entity.HitPosition does not have a value
-            }
-        }
-        else
-        {
-                        // Handle case when LCD is missing 
-        }
-    }
-    else
-    {
-                    // Handle case when Camera is missing 
-    }
-}
-```
-
 We start of by checking if all the things we need are installed, this will give you a better understanding of what is missing
 
 ```
