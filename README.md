@@ -1,7 +1,7 @@
 # Space-Engineers
 Code snippets for space engineers
 
-#Ray Casting 
+# Ray Casting 
 
 ```
 public void Main(string argument, UpdateType updateType)
